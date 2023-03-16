@@ -1,0 +1,207 @@
+[13:24:01] [ServerMain/INFO]: Building unoptimized datafixer
+[13:24:02] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[13:24:02] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
+[13:24:03] [ServerMain/INFO]: Loaded 7 recipes
+[13:24:04] [Server thread/INFO]: Starting minecraft server version 1.19.3
+[13:24:04] [Server thread/INFO]: Loading properties
+[13:24:04] [Server thread/INFO]: This server is running Paper version git-Paper-399 (MC: 1.19.3) (Implementing API version 1.19.3-R0.1-SNAPSHOT) (Git: f2f9e8c)
+[13:24:04] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[13:24:04] [Server thread/INFO]: Using 4 threads for Netty based IO
+[13:24:04] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 3 worker threads, and gen parallelism of 3 threads
+[13:24:04] [Server console handler/ERROR]: [TerminalConsole] Failed to read console input
+java.io.IOException: Controlador no válido
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:276) ~[?:?]
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:282) ~[?:?]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:343) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:270) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:313) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:177) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:162) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:329) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:396) ~[?:?]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:180) ~[terminalconsoleappender-1.3.0.jar:?]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:143) ~[terminalconsoleappender-1.3.0.jar:?]
+	at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:102) ~[paper-1.19.3.jar:git-Paper-399]
+	Suppressed: java.io.IOException: Controlador no válido
+		at java.io.FileDescriptor.close0(Native Method) ~[?:?]
+		at java.io.FileDescriptor.close(FileDescriptor.java:297) ~[?:?]
+		at java.io.FileInputStream$1.close(FileInputStream.java:459) ~[?:?]
+		at java.io.FileDescriptor.closeAll(FileDescriptor.java:355) ~[?:?]
+		at java.io.FileInputStream.close(FileInputStream.java:457) ~[?:?]
+		at java.io.BufferedInputStream.close(BufferedInputStream.java:481) ~[?:?]
+		at sun.nio.cs.StreamDecoder.implClose(StreamDecoder.java:366) ~[?:?]
+		at sun.nio.cs.StreamDecoder.close(StreamDecoder.java:204) ~[?:?]
+		at java.io.InputStreamReader.close(InputStreamReader.java:192) ~[?:?]
+		at java.io.BufferedReader.close(BufferedReader.java:525) ~[?:?]
+		at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:183) ~[terminalconsoleappender-1.3.0.jar:?]
+		at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:143) ~[terminalconsoleappender-1.3.0.jar:?]
+		at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:102) ~[paper-1.19.3.jar:git-Paper-399]
+[13:24:04] [Server thread/INFO]: Default game type: SURVIVAL
+[13:24:04] [Server thread/INFO]: Generating keypair
+[13:24:05] [Server thread/INFO]: Starting Minecraft server on 127.0.0.1:25565
+[13:24:05] [Server thread/INFO]: Using default channel type
+[13:24:05] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[13:24:05] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[13:24:05] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v14.2.8
+[13:24:05] [Server thread/INFO]: [OpenAudioMc] Loading OpenAudioMc v6.7.7
+[13:24:05] [Server thread/INFO]: [floodgate] Loading floodgate v2.2.0-SNAPSHOT (b74-4f36112)
+[13:24:05] [Server thread/INFO]: [floodgate] Tardó 275ms en iniciar Floodgate
+[13:24:05] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser-Spigot v2.1.0-SNAPSHOT
+[13:24:06] [Server thread/INFO]: [Geyser-Spigot] Cargando extensiones...
+[13:24:06] [Server thread/INFO]: [Geyser-Spigot] Cargadas 0 extensión(es)
+[13:24:06] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[13:24:06] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[13:24:06] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[13:24:06] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[13:24:06] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[13:24:06] [Server thread/INFO]: Preparing level "world"
+[13:24:10] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[13:24:10] [Server thread/INFO]: Time elapsed: 118 ms
+[13:24:10] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[13:24:10] [Server thread/INFO]: Time elapsed: 31 ms
+[13:24:10] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[13:24:10] [Server thread/INFO]: Time elapsed: 29 ms
+[13:24:10] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v14.2.8
+[13:24:10] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mDetected Minecraft [33;1mv1_19_R2[32;1m, using [33;1mPaperSkinRefresher[32;1m.[0;39m
+[13:24:10] [Server thread/INFO]: [SkinsRestorer] [ACF] Enabled Asynchronous Tab Completion Support!
+[13:24:10] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mUsing paper join listener![0;39m
+[13:24:10] [Server thread/INFO]: [OpenAudioMc] Enabling OpenAudioMc v6.7.7
+[13:24:10] [Server thread/INFO]: [OpenAudioMc] Initializing build 582 by Mats
+[13:24:10] [Server thread/INFO]: [OpenAudioMc] Using the main config file..
+[13:24:10] [Server thread/INFO]: [OpenAudioMc] Starting configuration module
+[13:24:10] [Server thread/INFO]: [OpenAudioMc] Using the main config file..
+[13:24:10] [Server thread/INFO]: [OpenAudioMc] Starting configuration module
+[13:24:10] [Server thread/INFO]: [OpenAudioMc] Skipped 28/28 migrations.
+[13:24:10] [Server thread/INFO]: [OpenAudioMc] ModuleLoaderService: Loading modules from D:\Games\Minecraft Servers\1.19.3\plugins\OpenAudioMc\modules
+[13:24:10] [Server thread/INFO]: [OpenAudioMc] Initializing socket connector
+[13:24:10] [Server thread/INFO]: [OpenAudioMc] Starting authentication module
+[13:24:11] [Server thread/INFO]: [OpenAudioMc] This server already has an account, skipping sign up.
+[13:24:11] [Server thread/INFO]: [OpenAudioMc] DatabaseService: Adding spigot tables
+[13:24:11] [Server thread/INFO]: [OpenAudioMc] Registering storage table for Alias
+[13:24:11] [Server thread/INFO]: [OpenAudioMc] DatabaseService: Registering class <-> table (alias<->Alias.java)
+[13:24:11] [Server thread/INFO]: [OpenAudioMc] Registering storage table for ClientDataStore
+[13:24:11] [Server thread/INFO]: [OpenAudioMc] DatabaseService: Registering class <-> table (client_data_store<->ClientDataStore.java)
+[13:24:11] [Server thread/INFO]: [OpenAudioMc] Registering storage table for MojangProfile
+[13:24:11] [Server thread/INFO]: [OpenAudioMc] DatabaseService: Registering class <-> table (mojang_profile<->MojangProfile.java)
+[13:24:11] [Server thread/INFO]: [OpenAudioMc] Registering storage table for RegionProperties
+[13:24:11] [Server thread/INFO]: [OpenAudioMc] DatabaseService: Registering class <-> table (region_properties<->RegionProperties.java)
+[13:24:11] [Server thread/INFO]: [OpenAudioMc] Registering storage table for Speaker
+[13:24:11] [Server thread/INFO]: [OpenAudioMc] DatabaseService: Registering class <-> table (speaker<->Speaker.java)
+[13:24:11] [Server thread/INFO]: [OpenAudioMc] Registering storage table for StoredWorldChunk
+[13:24:11] [Server thread/INFO]: [OpenAudioMc] DatabaseService: Registering class <-> table (stored_world_chunk<->StoredWorldChunk.java)
+[13:24:11] [Server thread/INFO]: [OpenAudioMc] Registering storage table for TimedRegionProperties
+[13:24:11] [Server thread/INFO]: [OpenAudioMc] DatabaseService: Registering class <-> table (timed_region_properties<->TimedRegionProperties.java)
+[13:24:11] [Server thread/INFO]: [OpenAudioMc] Registering storage table for MediaRule
+[13:24:11] [Server thread/INFO]: [OpenAudioMc] DatabaseService: Registering class <-> table (media_rule<->MediaRule.java)
+[13:24:11] [Server thread/INFO]: [OpenAudioMc] Initializing account details
+[13:24:12] [Server thread/INFO]: [OpenAudioMc] The server is empty! ignoring voice chat.
+[13:24:12] [Server thread/INFO]: [OpenAudioMc] Loading aliases...
+[13:24:12] [Server thread/INFO]: [OpenAudioMc] Loaded 0 aliases
+[13:24:12] [Server thread/INFO]: [OpenAudioMc] Detected version type: MODERN
+[13:24:12] [Server thread/INFO]: [OpenAudioMc] Enabling the 1.13 speaker system
+[13:24:12] [Server thread/INFO]: [OpenAudioMc] Using ip: 177.227.40.136
+[13:24:12] [Server thread/INFO]: [OpenAudioMc] Attempting to start a cdn injector at port 8050. Timeout=5-seconds
+[13:24:17] [Server thread/INFO]: [OpenAudioMc] Attempting to start a cdn injector at port 6563. Timeout=5-seconds
+[13:24:22] [Server thread/INFO]: [OpenAudioMc] Continuing without the RestDirect feature! None of the listed ports were accessible or available. Please contact support, your server/host might not be compatible!
+[13:24:22] [Server thread/INFO]: [OpenAudioMc] Starting and loading took 17424MS
+[13:24:22] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.0-SNAPSHOT (b74-4f36112)
+[13:24:23] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.1.0-SNAPSHOT
+[13:24:23] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[13:24:23] [Server thread/INFO]: [Geyser-Spigot] 
+[13:24:23] [Server thread/INFO]: [Geyser-Spigot] Cargando Geyser versión 2.1.0-SNAPSHOT (git-master-e7b8b4e)
+[13:24:23] [Server thread/INFO]: [Geyser-Spigot] 
+[13:24:23] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[13:24:25] [Network Listener - #1/INFO]: [Geyser-Spigot] Geyser se ha activado en la Ip y puerto 0.0.0.0:19132
+[13:24:25] [Server thread/INFO]: [Geyser-Spigot] ¡Listo (2.622s)! ¡Escribe /geyser help para obtener ayuda!
+[13:24:25] [Server thread/INFO]: Running delayed init tasks
+[13:24:25] [Server thread/INFO]: Done (21.100s)! For help, type "help"
+[13:24:25] [Server thread/INFO]: Timings Reset
+[13:24:26] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[13:24:26] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[13:24:26] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
+[13:24:26] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m
+[13:24:26] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m |[0;39m
+[13:24:26] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[13:24:26] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[13:24:26] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Current version: [32;1m14.2.8[0;39m
+[13:24:26] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
+[13:24:26] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[13:24:26] [ForkJoinPool.commonPool-worker-2/INFO]: [Geyser-Spigot] Hay una nueva versión de Geyser para soportar la versión de Bedrock 1.19.70. Descárgala aquí: https://ci.geysermc.org
+[13:24:28] [Server thread/INFO]: [OpenAudioMc] New Identity = YFFRT1pBCGpWFvftSb75AWB8Q
+[13:24:40] [User Authenticator #0/INFO]: UUID of player kaber is 33136056-975c-3a13-ba9f-01ed3f5708eb
+[13:24:40] [Server thread/INFO]: kaber joined the game
+[13:24:40] [Server thread/INFO]: kaber[/127.0.0.1:22840] logged in with entity id 360 at ([world]265.5, 67.0, 72.5)
+[13:24:40] [Craft Scheduler Thread - 3 - OpenAudioMc/INFO]: [OpenAudioMc] VoiceChat seems to be enabled for this account! Requesting RTC and Password...
+[13:24:42] [Craft Scheduler Thread - 2 - OpenAudioMc/INFO]: [OpenAudioMc] Attempting to login to voice chat...
+[13:24:43] [OaVoiceAPI/INFO]: [OpenAudioMc] Connected to voicechat!
+[13:24:54] [User Authenticator #0/INFO]: UUID of player Kawtious is 1933b91b-05ce-3abc-b28e-5ed2c4c13cdb
+[13:24:54] [Server thread/INFO]: Kawtious joined the game
+[13:24:54] [Server thread/INFO]: Kawtious[/127.0.0.1:22878] logged in with entity id 634 at ([world]255.5, 65.0, 73.5)
+[13:24:56] [Server thread/INFO]: Kawtious lost connection: Disconnected
+[13:24:56] [Server thread/INFO]: Kawtious left the game
+[13:24:57] [User Authenticator #0/INFO]: UUID of player Kawtious is 1933b91b-05ce-3abc-b28e-5ed2c4c13cdb
+[13:24:57] [Server thread/INFO]: Kawtious joined the game
+[13:24:57] [Server thread/INFO]: Kawtious[/127.0.0.1:22887] logged in with entity id 639 at ([world]255.5, 65.0, 73.5)
+[13:25:33] [Server thread/INFO]: Kawtious has made the advancement [Acquire Hardware]
+[13:26:31] [EventThread/INFO]: [OpenAudioMc] Expected voicechat shut down.
+[13:27:19] [Server thread/INFO]: Kawtious has made the advancement [Stone Age]
+[13:27:29] [Server thread/INFO]: Nothing changed. The player already is an operator
+[13:27:31] [Server thread/INFO]: kaber was shot by Pillager
+[13:27:35] [Server thread/INFO]: Kawtious issued server command: /gamerule keepInventory true
+[13:27:35] [Server thread/INFO]: [Kawtious: Gamerule keepInventory is now set to: true]
+[13:27:39] [Server thread/INFO]: Kawtious issued server command: /tp kaber @p
+[13:27:39] [Server thread/INFO]: [Kawtious: Teleported kaber to Kawtious]
+[13:29:06] [Server thread/INFO]: Kawtious has made the advancement [Getting an Upgrade]
+[13:33:30] [Server thread/INFO]: kaber has made the advancement [Stone Age]
+[13:34:06] [Server thread/INFO]: Kawtious lost connection: Disconnected
+[13:34:06] [Server thread/INFO]: Kawtious left the game
+[13:39:44] [Server thread/INFO]: kaber was slain by Spider
+[13:41:21] [Server thread/INFO]: kaber was blown up by Creeper
+[13:41:42] [Server thread/INFO]: kaber was slain by Zombie
+[13:42:00] [Server thread/INFO]: kaber has made the advancement [Monster Hunter]
+[13:42:12] [Server thread/INFO]: kaber was shot by Skeleton
+[13:42:35] [Server thread/INFO]: kaber was shot by Skeleton
+[13:42:50] [Server thread/INFO]: kaber was slain by Zombie
+[13:43:04] [Server thread/INFO]: kaber was shot by Skeleton
+[13:43:32] [Server thread/INFO]: kaber was shot by Skeleton
+[13:43:59] [Server thread/INFO]: kaber was slain by Zombie
+[13:47:56] [Server thread/INFO]: kaber lost connection: Disconnected
+[13:47:56] [Server thread/INFO]: kaber left the game
+[13:48:12] [Server thread/INFO]: Stopping the server
+[13:48:12] [Server thread/INFO]: Stopping server
+[13:48:12] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.1.0-SNAPSHOT
+[13:48:12] [Server thread/INFO]: [Geyser-Spigot] Apagando Geyser.
+[13:48:12] [Server thread/INFO]: [Geyser-Spigot] Geyser ha sido apagado correctamente.
+[13:48:12] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.0-SNAPSHOT (b74-4f36112)
+[13:48:12] [Server thread/INFO]: [OpenAudioMc] Disabling OpenAudioMc v6.7.7
+[13:48:12] [Server thread/INFO]: [OpenAudioMc] Shutting down
+[13:48:12] [Server thread/INFO]: [OpenAudioMc] Saving world cache...
+[13:48:12] [WebSocketConnectReadThread-73/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[13:48:12] [Server thread/INFO]: [OpenAudioMc] Stopped OpenAudioMc. Goodbye.
+[13:48:12] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v14.2.8
+[13:48:12] [Server thread/INFO]: Saving players
+[13:48:12] [Server thread/INFO]: Saving worlds
+[13:48:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[13:48:12] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[13:48:12] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[13:48:12] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[13:48:13] [Server thread/INFO]: [ChunkHolderManager] Saved 890 block chunks, 240 entity chunks, 1 poi chunks in world 'world' in 0.44s
+[13:48:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[13:48:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[13:48:13] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[13:48:13] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[13:48:13] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[13:48:13] [Server thread/INFO]: [ChunkHolderManager] Saved 1498 block chunks, 14 entity chunks, 0 poi chunks in world 'world_nether' in 0.30s
+[13:48:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[13:48:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[13:48:13] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[13:48:13] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[13:48:13] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[13:48:13] [Server thread/INFO]: [ChunkHolderManager] Saved 1506 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.21s
+[13:48:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[13:48:13] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[13:48:13] [Server thread/INFO]: Flushing Chunk IO
+[13:48:13] [Server thread/INFO]: Closing Thread Pool
+[13:48:13] [Server thread/INFO]: Closing Server
