@@ -1,0 +1,23 @@
+{
+  "uuid": "814bad7b-b9bf-4c4a-98d6-a9926b7dea8b",
+  "starterPrompted": true,
+  "starterLocked": false,
+  "starterSelected": true,
+  "starterUUID": "e526762f-c588-4815-b7ee-bbaeabcdf0f5",
+  "extraData": {},
+  "advancementData": {
+    "totalCaptureCount": 5,
+    "totalEggsHatched": 0,
+    "totalEvolvedCount": 0,
+    "totalBattleVictoryCount": 0,
+    "totalShinyCaptureCount": 0,
+    "totalTypeCaptureCounts": {
+      "normal": 1,
+      "bug": 1,
+      "flying": 2,
+      "fire": 1,
+      "electric": 1,
+      "dark": 1
+    }
+  }
+}
