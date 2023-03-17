@@ -2,7 +2,6 @@ trash/
 .fabric/
 libraries/
 logs/
-showdown/
 versions/
 banned-ips.json
 banned-players.json
@@ -10,3 +9,15 @@ eula.txt
 ops.json
 usercache.json
 whitelist.json
+
+world/advancements
+world/playerdata/
+world/stats/
+
+# Mods
+config/skinrestorer/
+modpacks/
+showdown/
+
+world/pokemon/
+world/cobblemonplayerdata/
