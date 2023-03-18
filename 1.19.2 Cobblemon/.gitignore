@@ -1,8 +1,10 @@
 trash/
 .fabric/
+crash-reports/
 libraries/
 logs/
 versions/
+
 banned-ips.json
 banned-players.json
 eula.txt
