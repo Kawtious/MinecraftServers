@@ -15,6 +15,7 @@ whitelist.json
 world/advancements
 world/playerdata/
 world/stats/
+world/session.lock
 
 # Mods
 config/skinrestorer/
