@@ -6,6 +6,8 @@
 		// Backpack immune to any damage source (lava, fire), can't be destroyed, never disappears as floating item
 		"invulnerableBackpack": true,
 		"tanksCapacity": 324000,
+		// Prevents backpack disappearing in void
+		"voidProtection": true,
 		// Places backpack at place where player died
 		"backpackDeathPlace": true,
 		// Places backpack at place where player died, replacing all blocks that are breakable and do not have inventory (backpackDeathPlace must be true in order to work)
@@ -30,7 +32,7 @@
 	},
 	"slownessDebuff": {
 		// Player gets slowness effect, if carries too many backpacks in inventory
-		"tooManyBackpacksSlowness": true,
+		"tooManyBackpacksSlowness": false,
 		// Maximum number of backpacks, which can be carried in inventory, without slowness effect
 		"maxNumberOfBackpacks": 3,
 		"slownessPerExcessedBackpack": 1
@@ -41,7 +43,7 @@
 		// Enables tip, how to obtain a backpack, if there's no crafting recipe for it
 		"obtainTips": true,
 		// Render tools in tool slots on the backpack, while worn
-		"renderTools": true,
+		"renderTools": false,
 		// Render backpack if elytra is present
 		"renderBackpackWithElytra": true,
 		// Disable backpack rendering

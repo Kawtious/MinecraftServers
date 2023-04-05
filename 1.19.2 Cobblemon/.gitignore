@@ -12,16 +12,8 @@ ops.json
 usercache.json
 whitelist.json
 
-world/advancements
-world/playerdata/
-world/stats/
 world/session.lock
 
 # Mods
-config/skinrestorer/
 modpacks/
 showdown/
-
-world/backpacks/
-world/pokemon/
-world/cobblemonplayerdata/

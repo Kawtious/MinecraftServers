@@ -1,0 +1,34 @@
+{
+  "uuid": "1933b91b-05ce-3abc-b28e-5ed2c4c13cdb",
+  "starterPrompted": true,
+  "starterLocked": false,
+  "starterSelected": true,
+  "starterUUID": "cdfbe7eb-cd2a-4605-8014-e1924acc3b70",
+  "extraData": {},
+  "advancementData": {
+    "totalCaptureCount": 37,
+    "totalEggsHatched": 0,
+    "totalEvolvedCount": 13,
+    "totalBattleVictoryCount": 0,
+    "totalShinyCaptureCount": 0,
+    "totalTypeCaptureCounts": {
+      "electric": 5,
+      "normal": 7,
+      "flying": 2,
+      "rock": 2,
+      "ground": 4,
+      "dragon": 1,
+      "psychic": 3,
+      "water": 2,
+      "ghost": 8,
+      "poison": 3,
+      "bug": 3,
+      "fighting": 2,
+      "grass": 3,
+      "fire": 2,
+      "dark": 4,
+      "steel": 2,
+      "fairy": 2
+    }
+  }
+}
